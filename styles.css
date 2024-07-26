@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+}
+
+#form-entrega{
+    /*border: solid 1px red;*/
+    
+
+}
+#form-devolucao{
+    /*border: solid 1px yellow;*/
+
+}
+#historico{
+    /*border: solid 1px blue;*/
+}

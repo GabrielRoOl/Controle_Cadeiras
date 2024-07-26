@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Cadeiras de Rodas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Controle de Cadeiras de Rodas</h1>
+    <h2>Registrar Entrega</h2>
+    <form id="form-entrega">
+        <label for="nome">Nome da Pessoa:</label>
+        <input type="text" id="nome" required>
+        <label for="local">Para onde foi:</label>
+        <input type="text" id="local" required>
+        <button type="submit">Registrar Entrega</button>
+    </form>
+
+    <h2>Registrar Devolução</h2>
+    <form id="form-devolucao">
+        <label for="nome-devolucao">Nome da Pessoa:</label>
+        <input type="text" id="nome-devolucao" required>
+        <button type="submit">Registrar Devolução</button>
+    </form>
+    
+    <h2>Histórico de Entregas</h2>
+    <ul id="historico"></ul>
+    <button id="limpar-historico">Limpar Histórico</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
