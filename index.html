@@ -9,19 +9,35 @@
 <body>
     <h1>Controle de Cadeiras de Rodas</h1>
     <h2>Registrar Entrega</h2>
-    <form id="form-entrega">
+    <form id="form-entrega" class="center">
         <label for="nome">Nome da Pessoa:</label>
-        <input type="text" id="nome" required>
+        <input type="text" id="nome" maxlength="35" class="caixa-text" required>
         <label for="local">Para onde foi:</label>
-        <input type="text" id="local" required>
+        <input type="text" id="local" maxlength="35" class="caixa-text" required>
+        <label for="cadeira">Selecionar Cadeira:</label>
+        <select id="cadeira" class="caixa-text" required>
+            <option value="">Selecione uma cadeira</option>
+            <option value="Cadeira 0A">Cadeira 0A</option>
+            <option value="Cadeira 1A">Cadeira 1A</option>
+            <option value="Cadeira 2A">Cadeira 2A</option>
+            <option value="Cadeira 0B">Cadeira 0B</option>
+            <option value="Cadeira 1B">Cadeira 1B</option>
+        </select>
         <button type="submit">Registrar Entrega</button>
     </form>
 
     <h2>Registrar Devolução</h2>
     <form id="form-devolucao">
-        <label for="nome-devolucao">Nome da Pessoa:</label>
-        <input type="text" id="nome-devolucao" required>
-        <button type="submit">Registrar Devolução</button>
+        <label for="cadeira-devolucao">Selecionar Cadeira:</label>
+        <select id="cadeira-devolucao" class="caixa-text" required>
+            <option value="">Selecione uma cadeira</option>
+            <option value="Cadeira 0A">Cadeira 0A</option>
+            <option value="Cadeira 1A">Cadeira 1A</option>
+            <option value="Cadeira 2A">Cadeira 2A</option>
+            <option value="Cadeira 0B">Cadeira 0B</option>
+            <option value="Cadeira 1B">Cadeira 1B</option>
+        </select>
+        <button type="submit" id="btn-devolucao">Registrar Devolução</button>
     </form>
     
     <h2>Histórico de Entregas</h2>

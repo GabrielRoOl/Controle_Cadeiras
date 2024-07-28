@@ -1,10 +1,22 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0px;
+    text-align: center;
+}
+h1{
+    margin: 0;
+    width: 100%;
+    background-color:  #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 15px ;
 }
 
 form {
     margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: inline-block;
 }
 
 label {
@@ -14,23 +26,64 @@ label {
 
 input {
     padding: 8px;
-    margin-bottom: 10px;
-    width: 100%;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
 }
 
 button {
     padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
 }
 
-#form-entrega{
-    /*border: solid 1px red;*/
-    
-
+button:hover {
+    background-color: #0056b3;
 }
-#form-devolucao{
-    /*border: solid 1px yellow;*/
 
+#form-entrega {
+    border: 1px solid #ccc;
+    width: 50%;
 }
-#historico{
-    /*border: solid 1px blue;*/
+
+#form-devolucao {
+    border: 1px solid #ccc;
+    width: 50%;
+}
+
+#historico {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#historico li {
+    margin: 10px 0;
+}
+
+#limpar-historico {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#limpar-historico:hover {
+    background-color: #c82333;
+}
+
+#cadeira{
+    padding: 8px;
+    margin: 0px 6;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#cadeira-devolucao{
+    padding: 8px;
+    margin: 0px 6;
+    border-radius: 4px;
+    cursor: pointer;
 }
